@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.signin-box {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 320px;
+    text-align: center;
+}
+
+.signin-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signin-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.signin-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #11998e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.signin-box button:hover {
+    background: #0e7d73;
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: red;
+}
+
+.switch-link {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555;
+}
+
+.switch-link a {
+    color: #11998e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.switch-link a:hover {
+    text-decoration: underline;
+}
